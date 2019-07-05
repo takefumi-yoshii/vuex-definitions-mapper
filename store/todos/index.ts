@@ -31,8 +31,7 @@ export const mutations: Mutations<S, M> = {
 // ______________________________________________________
 //
 export const actions: Actions<S, A, G, M> = {
-  asyncAddTodo({ commit, rootGetters }, payload) {
-    const n = rootGetters['counter/hogehoge']
+  asyncAddTodo({ commit }, payload) {
     commit('addTodo', payload)
   },
   asyncDoneTodo({ commit }, payload) {

@@ -12,7 +12,7 @@ declare module "vuex" {
         };
     };
     type RootGetters = {
-        "counter/hogehoge": COUNTER.G["hogehoge"];
+        "counter/counter": COUNTER.G["counter"];
         "counter/expo2": COUNTER.G["expo2"];
         "counter/expo": COUNTER.G["expo"];
         "todos/todosCount": TODOS.G["todosCount"];

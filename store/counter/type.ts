@@ -7,7 +7,7 @@ export type S = {
 // ______________________________________________________
 //
 export type G = {
-  hogehoge: number
+  counter: number
   expo2: number
   expo: (amount: number) => number
 }
