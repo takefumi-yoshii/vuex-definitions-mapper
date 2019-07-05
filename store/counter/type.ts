@@ -2,12 +2,11 @@
 //
 export type S = {
   count: number
-  flag: boolean
 }
 // ______________________________________________________
 //
 export type G = {
-  counter: number
+  double: number
   expo2: number
   expo: (amount: number) => number
 }
